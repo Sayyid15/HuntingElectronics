@@ -1,0 +1,54 @@
+
+body{
+    background-color: pink;
+
+
+}
+H2{
+    text-align: center;
+}
+video{
+    border: 10px solid darkred;
+    border-radius: 15px;
+
+}
+
+
+#label {
+    width:600px;
+    height:20px;
+    color:black;
+
+}
+
+button{
+    height: 40px;
+    border-radius: 8px;
+    background-color: darkred;
+    color: pink;
+}
+
+@media screen and (max-width: 500px ) {
+
+    #label {
+        width:600px;
+        height:20px;
+        color:deeppink;
+
+    }
+    H2{
+        text-align: end;
+    }
+    video{
+        border: 10px solid purple;
+        border-radius: 15px;
+
+    }
+    button{
+        height: 40px;
+        border-radius: 8px;
+        background-color: darkred;
+        color: pink;
+    }
+
+}
